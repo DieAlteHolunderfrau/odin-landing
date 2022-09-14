@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.headerLink {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heroImage {
+}
+
+#heroTitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#heroDesc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#heroButton {
+    color: aqua;
+    background-color: blueviolet;
+    border-radius: 25%;
+    width: 100px;
+}
+
+.showcase {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    background-color: #1F2937;
+    border-color: #1F2937;
+    border-style: dotted;
+    border-radius: 10%;
+    gap: 5px;
+}
+
+.cardImage {
+    border-radius: 10%;
+}
+
+.cardText {
+    font-size: 18px;
+    font-style: italic;
+    color: aquamarine;
+    background-color: #1F2937;
+}
+
+.showcaseCards{
+    padding: 0;
+}
